@@ -22,7 +22,7 @@ const notificationrouter = require("./Route/NotificationRouter");
 app.use(cookieParser())
 app.use(express.json())
 app.use(cors({
-    origin: 'https://socialmedia-backend-wlia.onrender.com', 
+    origin: 'https://socialmedia-frontend-s4rb.vercel.app', 
     credentials: true  
   }));
   app.use('/api/auth' , authrouter)
